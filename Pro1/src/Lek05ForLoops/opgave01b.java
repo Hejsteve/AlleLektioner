@@ -1,0 +1,14 @@
+package Lek05ForLoops;
+
+public class opgave01b {
+    static void main(String[] args) {
+        int sum = 0;
+        for (int i = 300; i >= 3; i--) {
+            if (i % 3 == 0) {
+                sum = i;
+                System.out.println(sum);
+            }
+        }
+    }
+}
+
