@@ -7,8 +7,8 @@ public class opgave03 {
             for (int star = 10; star >= row; star--) {
                 System.out.print("*");
             }
-            System.out.println();
+            System.out.println("-");
         }
-        System.out.println();
+        System.out.println("-");
     }
 }
